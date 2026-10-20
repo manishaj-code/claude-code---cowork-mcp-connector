@@ -1,0 +1,857 @@
+{
+  "keys": [
+    {
+      "id": "key_initial_demo_001",
+      "scope": "code",
+      "label": "Primary CoWork & Claude Code Link",
+      "key_hash": "8f14e313d41cbf26399cac155183aed0a789b0e6453e9fdbd03117c8fa6fdb7a",
+      "prefix": "sec_demo_cl...",
+      "created_by": "system_bootstrap",
+      "created_at": "2026-10-20T08:05:10.977Z",
+      "last_used_at": "2026-10-20T10:04:41.965Z",
+      "uses": 37,
+      "revoked_at": null
+    },
+    {
+      "id": "revoked_key_test",
+      "scope": "code",
+      "label": "Revoked Key",
+      "key_hash": "37c35ab01f2fc4aa36079e759506eda3301589a17bf33f43a04ed0599229037f",
+      "prefix": "sec_revoked...",
+      "created_by": "test",
+      "created_at": "2026-10-20T09:05:10.985Z",
+      "last_used_at": null,
+      "uses": 0,
+      "revoked_at": "2026-10-20T09:05:10.985Z"
+    },
+    {
+      "id": "revoked_key_test",
+      "scope": "code",
+      "label": "Revoked Key",
+      "key_hash": "37c35ab01f2fc4aa36079e759506eda3301589a17bf33f43a04ed0599229037f",
+      "prefix": "sec_revoked...",
+      "created_by": "test",
+      "created_at": "2026-10-20T09:11:05.095Z",
+      "last_used_at": null,
+      "uses": 0,
+      "revoked_at": "2026-10-20T09:11:05.095Z"
+    },
+    {
+      "id": "key_98690420-f",
+      "scope": "code",
+      "label": "test",
+      "key_hash": "badae6de37a3fc96a7d91528d43461187460d35b6dcc5fd487ff9820d10e1dc5",
+      "prefix": "sec_NFAo3q...",
+      "created_by": "admin_dashboard",
+      "created_at": "2026-10-20T09:58:15.023Z",
+      "last_used_at": null,
+      "uses": 0,
+      "revoked_at": null
+    },
+    {
+      "id": "key_44248f25-3",
+      "scope": "code",
+      "label": "testconnector",
+      "key_hash": "2678c39769bf5a511dbc79a9ca75d399f62d2d7b4b20fb83aaeac7195df56208",
+      "prefix": "sec_un3jNZ...",
+      "created_by": "admin_dashboard",
+      "created_at": "2026-10-20T09:58:35.137Z",
+      "last_used_at": null,
+      "uses": 0,
+      "revoked_at": null
+    }
+  ],
+  "calls": [
+    {
+      "id": "call_001",
+      "connector_key_id": "key_initial_demo_001",
+      "connector_label": "Primary CoWork & Claude Code Link",
+      "tool": "get_overview",
+      "safe_arguments": {},
+      "ok": true,
+      "created_at": "2026-10-20T08:45:10.977Z"
+    },
+    {
+      "id": "call_002",
+      "connector_key_id": "key_initial_demo_001",
+      "connector_label": "Primary CoWork & Claude Code Link",
+      "tool": "read_messages",
+      "safe_arguments": {
+        "limit": 20
+      },
+      "ok": true,
+      "created_at": "2026-10-20T08:46:00.977Z"
+    },
+    {
+      "id": "call_003",
+      "connector_key_id": "key_initial_demo_001",
+      "connector_label": "Primary CoWork & Claude Code Link",
+      "tool": "send_message",
+      "safe_arguments": {
+        "side": "box",
+        "author": "Claude Code (Terminal)",
+        "text": "Acknowledged. Reading sample repository..."
+      },
+      "ok": true,
+      "created_at": "2026-10-20T08:46:50.977Z"
+    },
+    {
+      "id": "2d8be2cc-cd36-486f-a893-deb461dc1849",
+      "connector_key_id": "test_key_001",
+      "connector_label": "Automated Test Key",
+      "tool": "get_overview",
+      "safe_arguments": {},
+      "ok": true,
+      "created_at": "2026-10-20T09:05:10.977Z"
+    },
+    {
+      "id": "776c1840-16bc-47d3-b733-da0c43bf94b5",
+      "connector_key_id": "test_key_001",
+      "connector_label": "Automated Test Key",
+      "tool": "list_files",
+      "safe_arguments": {},
+      "ok": true,
+      "created_at": "2026-10-20T09:05:10.982Z"
+    },
+    {
+      "id": "4e448951-b6c9-40e1-9c50-d8b9b8b18136",
+      "connector_key_id": "test_key_001",
+      "connector_label": "Automated Test Key",
+      "tool": "search_code",
+      "safe_arguments": {
+        "query": "Nexus"
+      },
+      "ok": true,
+      "created_at": "2026-10-20T09:05:10.983Z"
+    },
+    {
+      "id": "ffa9f0b5-b973-4d95-9c38-b33a2cc81fb2",
+      "connector_key_id": "test_key_001",
+      "connector_label": "Automated Test Key",
+      "tool": "list_services",
+      "safe_arguments": {},
+      "ok": true,
+      "created_at": "2026-10-20T09:05:10.983Z"
+    },
+    {
+      "id": "42c36c2e-082a-4a8a-afbe-0a2208f64cd7",
+      "connector_key_id": "test_key_001",
+      "connector_label": "Automated Test Key",
+      "tool": "find_people",
+      "safe_arguments": {
+        "query": "Alex"
+      },
+      "ok": true,
+      "created_at": "2026-10-20T09:05:10.984Z"
+    },
+    {
+      "id": "865086a4-ecc2-45a7-b33a-ee39538cc738",
+      "connector_key_id": "test_key_001",
+      "connector_label": "Automated Test Key",
+      "tool": "read_file",
+      "safe_arguments": {
+        "path": ".env"
+      },
+      "ok": false,
+      "error_message": "Access denied: Restricted file pattern '.env' is prohibited.",
+      "created_at": "2026-10-20T09:05:10.986Z"
+    },
+    {
+      "id": "61d98da1-21d2-4f04-bf84-2de27d93cc49",
+      "connector_key_id": "test_key_001",
+      "connector_label": "Automated Test Key",
+      "tool": "read_file",
+      "safe_arguments": {
+        "path": "credentials.json"
+      },
+      "ok": false,
+      "error_message": "Access denied: Restricted file pattern 'credentials.json' is prohibited.",
+      "created_at": "2026-10-20T09:05:10.986Z"
+    },
+    {
+      "id": "58c3a406-2f87-4ccc-a965-c11748ab67a9",
+      "connector_key_id": "test_key_001",
+      "connector_label": "Automated Test Key",
+      "tool": "read_file",
+      "safe_arguments": {
+        "path": "dump.sql"
+      },
+      "ok": false,
+      "error_message": "Access denied: Restricted file pattern 'dump.sql' is prohibited.",
+      "created_at": "2026-10-20T09:05:10.987Z"
+    },
+    {
+      "id": "89e1290b-fe05-4a5b-bef1-ce54056d6219",
+      "connector_key_id": "test_key_001",
+      "connector_label": "Automated Test Key",
+      "tool": "read_file",
+      "safe_arguments": {
+        "path": "../../etc/passwd"
+      },
+      "ok": false,
+      "error_message": "Access denied: Path traversal or absolute paths are prohibited.",
+      "created_at": "2026-10-20T09:05:10.988Z"
+    },
+    {
+      "id": "903e3895-db4e-40a7-896e-d05579f27b19",
+      "connector_key_id": "test_key_001",
+      "connector_label": "Automated Test Key",
+      "tool": "read_file",
+      "safe_arguments": {
+        "path": "/etc/shadow"
+      },
+      "ok": false,
+      "error_message": "Access denied: Path traversal or absolute paths are prohibited.",
+      "created_at": "2026-10-20T09:05:10.988Z"
+    },
+    {
+      "id": "a5c5dfc9-ba07-4370-9f77-d4522ed64e21",
+      "connector_key_id": "test_key_001",
+      "connector_label": "Automated Test Key",
+      "tool": "send_message",
+      "safe_arguments": {
+        "text": "Hello from MCP Automated Test",
+        "side": "chat",
+        "author": "[REDACTED_SECRET]"
+      },
+      "ok": true,
+      "created_at": "2026-10-20T09:05:10.990Z"
+    },
+    {
+      "id": "20ef8086-4156-4894-8b89-ac768c700aff",
+      "connector_key_id": "test_key_001",
+      "connector_label": "Automated Test Key",
+      "tool": "read_messages",
+      "safe_arguments": {
+        "limit": 10
+      },
+      "ok": true,
+      "created_at": "2026-10-20T09:05:10.990Z"
+    },
+    {
+      "id": "013e29ba-ce38-4b0e-b9a1-58ba60d28cdf",
+      "connector_key_id": "test_key_001",
+      "connector_label": "Automated Test Key",
+      "tool": "send_message",
+      "safe_arguments": {
+        "text": "Completed automated verification step.",
+        "side": "box",
+        "author": "[REDACTED_SECRET]"
+      },
+      "ok": true,
+      "created_at": "2026-10-20T09:05:10.991Z"
+    },
+    {
+      "id": "3878304b-bed3-44b9-a58d-bbab42ac902c",
+      "connector_key_id": "test_key_001",
+      "connector_label": "Automated Test Key",
+      "tool": "read_messages",
+      "safe_arguments": {
+        "side": "chat",
+        "limit": 10
+      },
+      "ok": true,
+      "created_at": "2026-10-20T09:05:10.992Z"
+    },
+    {
+      "id": "12c9232c-8b04-4124-a3d1-be7f21867390",
+      "connector_key_id": "test_key_001",
+      "connector_label": "Automated Test Key",
+      "tool": "get_overview",
+      "safe_arguments": {},
+      "ok": true,
+      "created_at": "2026-10-20T09:05:10.993Z"
+    },
+    {
+      "id": "454d74e7-73d5-423b-8cc9-b58fd28b3733",
+      "connector_key_id": "test_key_001",
+      "connector_label": "Automated Test Key",
+      "tool": "read_file",
+      "safe_arguments": {
+        "path": ".env"
+      },
+      "ok": false,
+      "error_message": "Access denied: Restricted file pattern '.env' is prohibited.",
+      "created_at": "2026-10-20T09:05:10.993Z"
+    },
+    {
+      "id": "3211b9ea-b309-4aed-892c-6c5e2d245ad5",
+      "connector_key_id": "key_initial_demo_001",
+      "connector_label": "Primary CoWork & Claude Code Link",
+      "tool": "read_messages",
+      "safe_arguments": {
+        "limit": 5,
+        "unread_only": false,
+        "side": "box"
+      },
+      "ok": true,
+      "created_at": "2026-10-20T09:05:32.355Z"
+    },
+    {
+      "id": "fdb929fc-17d3-4908-9110-2dc0a519c762",
+      "connector_key_id": "key_initial_demo_001",
+      "connector_label": "Primary CoWork & Claude Code Link",
+      "tool": "send_message",
+      "safe_arguments": {
+        "text": "Claude Code task completed successfully in terminal",
+        "side": "box",
+        "author": "[REDACTED_SECRET]"
+      },
+      "ok": true,
+      "created_at": "2026-10-20T09:05:39.714Z"
+    },
+    {
+      "id": "7d76fcdf-858f-44d9-b22d-83b0e1ce59a8",
+      "connector_key_id": "key_initial_demo_001",
+      "connector_label": "Primary CoWork & Claude Code Link",
+      "tool": "get_overview",
+      "safe_arguments": {},
+      "ok": true,
+      "created_at": "2026-10-20T09:05:46.546Z"
+    },
+    {
+      "id": "2525c8fe-bf8d-4428-87f0-b16a7db19075",
+      "connector_key_id": "test_key_001",
+      "connector_label": "Automated Test Key",
+      "tool": "get_overview",
+      "safe_arguments": {},
+      "ok": true,
+      "created_at": "2026-10-20T09:11:05.085Z"
+    },
+    {
+      "id": "770f579b-213d-41f2-8491-0d00aa08daa7",
+      "connector_key_id": "test_key_001",
+      "connector_label": "Automated Test Key",
+      "tool": "list_files",
+      "safe_arguments": {},
+      "ok": true,
+      "created_at": "2026-10-20T09:11:05.092Z"
+    },
+    {
+      "id": "41a0929b-78a3-4aa3-b7ce-3cdcb4188104",
+      "connector_key_id": "test_key_001",
+      "connector_label": "Automated Test Key",
+      "tool": "search_code",
+      "safe_arguments": {
+        "query": "Nexus"
+      },
+      "ok": true,
+      "created_at": "2026-10-20T09:11:05.093Z"
+    },
+    {
+      "id": "6658f350-8adf-4e55-b37b-8c7f9db92061",
+      "connector_key_id": "test_key_001",
+      "connector_label": "Automated Test Key",
+      "tool": "list_services",
+      "safe_arguments": {},
+      "ok": true,
+      "created_at": "2026-10-20T09:11:05.093Z"
+    },
+    {
+      "id": "d0eaa34f-be91-4145-ba85-48d3e75e7715",
+      "connector_key_id": "test_key_001",
+      "connector_label": "Automated Test Key",
+      "tool": "find_people",
+      "safe_arguments": {
+        "query": "Alex"
+      },
+      "ok": true,
+      "created_at": "2026-10-20T09:11:05.094Z"
+    },
+    {
+      "id": "29022019-a1ac-422e-9abe-d8f574997dfd",
+      "connector_key_id": "test_key_001",
+      "connector_label": "Automated Test Key",
+      "tool": "read_file",
+      "safe_arguments": {
+        "path": ".env"
+      },
+      "ok": false,
+      "error_message": "Access denied: Restricted file pattern '.env' is prohibited.",
+      "created_at": "2026-10-20T09:11:05.095Z"
+    },
+    {
+      "id": "916e1fda-7d1b-4ff1-a79a-b94581eb675e",
+      "connector_key_id": "test_key_001",
+      "connector_label": "Automated Test Key",
+      "tool": "read_file",
+      "safe_arguments": {
+        "path": "credentials.json"
+      },
+      "ok": false,
+      "error_message": "Access denied: Restricted file pattern 'credentials.json' is prohibited.",
+      "created_at": "2026-10-20T09:11:05.096Z"
+    },
+    {
+      "id": "dcf45f12-7e1a-4f77-8082-f0dac79ee435",
+      "connector_key_id": "test_key_001",
+      "connector_label": "Automated Test Key",
+      "tool": "read_file",
+      "safe_arguments": {
+        "path": "dump.sql"
+      },
+      "ok": false,
+      "error_message": "Access denied: Restricted file pattern 'dump.sql' is prohibited.",
+      "created_at": "2026-10-20T09:11:05.097Z"
+    },
+    {
+      "id": "46e5afe6-e147-4958-8c23-d6e23109f6b6",
+      "connector_key_id": "test_key_001",
+      "connector_label": "Automated Test Key",
+      "tool": "read_file",
+      "safe_arguments": {
+        "path": "../../etc/passwd"
+      },
+      "ok": false,
+      "error_message": "Access denied: Path traversal or absolute paths are prohibited.",
+      "created_at": "2026-10-20T09:11:05.098Z"
+    },
+    {
+      "id": "80abc781-c555-43f0-a8f5-c500c7611cf5",
+      "connector_key_id": "test_key_001",
+      "connector_label": "Automated Test Key",
+      "tool": "read_file",
+      "safe_arguments": {
+        "path": "/etc/shadow"
+      },
+      "ok": false,
+      "error_message": "Access denied: Path traversal or absolute paths are prohibited.",
+      "created_at": "2026-10-20T09:11:05.098Z"
+    },
+    {
+      "id": "235bf986-1697-46ce-ad75-a95b0f4d65a6",
+      "connector_key_id": "test_key_001",
+      "connector_label": "Automated Test Key",
+      "tool": "send_message",
+      "safe_arguments": {
+        "text": "Hello from MCP Automated Test",
+        "side": "chat",
+        "author": "[REDACTED_SECRET]"
+      },
+      "ok": true,
+      "created_at": "2026-10-20T09:11:05.100Z"
+    },
+    {
+      "id": "585e3ba8-7906-409c-a01d-a63979251ab3",
+      "connector_key_id": "test_key_001",
+      "connector_label": "Automated Test Key",
+      "tool": "read_messages",
+      "safe_arguments": {
+        "limit": 10
+      },
+      "ok": true,
+      "created_at": "2026-10-20T09:11:05.101Z"
+    },
+    {
+      "id": "6ea25add-c176-48ca-b4d8-4e73daab6d35",
+      "connector_key_id": "test_key_001",
+      "connector_label": "Automated Test Key",
+      "tool": "send_message",
+      "safe_arguments": {
+        "text": "Completed automated verification step.",
+        "side": "box",
+        "author": "[REDACTED_SECRET]"
+      },
+      "ok": true,
+      "created_at": "2026-10-20T09:11:05.102Z"
+    },
+    {
+      "id": "da16d2a3-2931-402a-a754-4f40016656ae",
+      "connector_key_id": "test_key_001",
+      "connector_label": "Automated Test Key",
+      "tool": "read_messages",
+      "safe_arguments": {
+        "side": "chat",
+        "limit": 10
+      },
+      "ok": true,
+      "created_at": "2026-10-20T09:11:05.102Z"
+    },
+    {
+      "id": "f3a8bbd5-3b39-4038-8aff-d5b7f2b1c8b4",
+      "connector_key_id": "test_key_001",
+      "connector_label": "Automated Test Key",
+      "tool": "get_overview",
+      "safe_arguments": {},
+      "ok": true,
+      "created_at": "2026-10-20T09:11:05.103Z"
+    },
+    {
+      "id": "1e3ec9fd-033c-4b71-bc5e-0ec9dfccb7b4",
+      "connector_key_id": "test_key_001",
+      "connector_label": "Automated Test Key",
+      "tool": "read_file",
+      "safe_arguments": {
+        "path": ".env"
+      },
+      "ok": false,
+      "error_message": "Access denied: Restricted file pattern '.env' is prohibited.",
+      "created_at": "2026-10-20T09:11:05.103Z"
+    },
+    {
+      "id": "60a1894f-9cc2-4f7b-ad57-ddb158f191d0",
+      "connector_key_id": "key_initial_demo_001",
+      "connector_label": "Primary CoWork & Claude Code Link",
+      "tool": "get_overview",
+      "safe_arguments": {},
+      "ok": true,
+      "created_at": "2026-10-20T09:23:51.304Z"
+    },
+    {
+      "id": "c062f29d-d635-478d-b399-47cede05f438",
+      "connector_key_id": "key_initial_demo_001",
+      "connector_label": "Primary CoWork & Claude Code Link",
+      "tool": "list_files",
+      "safe_arguments": {},
+      "ok": true,
+      "created_at": "2026-10-20T09:23:51.392Z"
+    },
+    {
+      "id": "d8e3b04f-6328-48b6-8955-34d3acb9be9b",
+      "connector_key_id": "key_initial_demo_001",
+      "connector_label": "Primary CoWork & Claude Code Link",
+      "tool": "read_file",
+      "safe_arguments": {
+        "path": "src/utils/math.ts"
+      },
+      "ok": true,
+      "created_at": "2026-10-20T09:23:51.569Z"
+    },
+    {
+      "id": "9e794bbd-1adf-42b5-8f5b-aff2d55c67aa",
+      "connector_key_id": "key_initial_demo_001",
+      "connector_label": "Primary CoWork & Claude Code Link",
+      "tool": "search_code",
+      "safe_arguments": {
+        "query": "Nexus"
+      },
+      "ok": true,
+      "created_at": "2026-10-20T09:23:51.632Z"
+    },
+    {
+      "id": "257cbcee-5cf1-450b-a973-37fa9d8616fc",
+      "connector_key_id": "key_initial_demo_001",
+      "connector_label": "Primary CoWork & Claude Code Link",
+      "tool": "recent_changes",
+      "safe_arguments": {},
+      "ok": true,
+      "created_at": "2026-10-20T09:23:51.692Z"
+    },
+    {
+      "id": "3714cc3e-2943-431f-b4d1-61130ecc9172",
+      "connector_key_id": "key_initial_demo_001",
+      "connector_label": "Primary CoWork & Claude Code Link",
+      "tool": "describe_data_model",
+      "safe_arguments": {},
+      "ok": true,
+      "created_at": "2026-10-20T09:23:51.755Z"
+    },
+    {
+      "id": "277e25ba-a6de-42f6-b08c-4e4c43c278a6",
+      "connector_key_id": "key_initial_demo_001",
+      "connector_label": "Primary CoWork & Claude Code Link",
+      "tool": "list_reports",
+      "safe_arguments": {},
+      "ok": true,
+      "created_at": "2026-10-20T09:23:51.810Z"
+    },
+    {
+      "id": "67629feb-9f77-48e2-90e0-3086aa4eaf29",
+      "connector_key_id": "key_initial_demo_001",
+      "connector_label": "Primary CoWork & Claude Code Link",
+      "tool": "get_report",
+      "safe_arguments": {
+        "report_id": "rep_battery_health"
+      },
+      "ok": true,
+      "created_at": "2026-10-20T09:23:51.866Z"
+    },
+    {
+      "id": "4c901627-32bd-49ff-9010-7ab8b26f2bad",
+      "connector_key_id": "key_initial_demo_001",
+      "connector_label": "Primary CoWork & Claude Code Link",
+      "tool": "list_services",
+      "safe_arguments": {},
+      "ok": true,
+      "created_at": "2026-10-20T09:23:51.925Z"
+    },
+    {
+      "id": "9d2c8dfa-5ddf-411e-ac30-890c432322ef",
+      "connector_key_id": "key_initial_demo_001",
+      "connector_label": "Primary CoWork & Claude Code Link",
+      "tool": "service_status",
+      "safe_arguments": {
+        "service_id": "svc_auth_gw"
+      },
+      "ok": true,
+      "created_at": "2026-10-20T09:23:51.986Z"
+    },
+    {
+      "id": "b8ee44f7-8fea-4cf3-99f7-bff225da3396",
+      "connector_key_id": "key_initial_demo_001",
+      "connector_label": "Primary CoWork & Claude Code Link",
+      "tool": "find_people",
+      "safe_arguments": {
+        "query": "Architect"
+      },
+      "ok": true,
+      "created_at": "2026-10-20T09:23:52.084Z"
+    },
+    {
+      "id": "51b061f9-ff0a-4513-94cc-7a5726e41ad0",
+      "connector_key_id": "key_initial_demo_001",
+      "connector_label": "Primary CoWork & Claude Code Link",
+      "tool": "read_file",
+      "safe_arguments": {
+        "path": ".env"
+      },
+      "ok": false,
+      "error_message": "Access denied: Restricted file pattern '.env' is prohibited.",
+      "created_at": "2026-10-20T09:23:52.157Z"
+    },
+    {
+      "id": "e677c710-a00d-4937-825f-e04f48586e24",
+      "connector_key_id": "key_initial_demo_001",
+      "connector_label": "Primary CoWork & Claude Code Link",
+      "tool": "read_file",
+      "safe_arguments": {
+        "path": "../server.ts"
+      },
+      "ok": false,
+      "error_message": "Access denied: Path traversal or absolute paths are prohibited.",
+      "created_at": "2026-10-20T09:23:52.218Z"
+    },
+    {
+      "id": "9c6846a6-95b7-4155-8f79-6b62b1092954",
+      "connector_key_id": "key_initial_demo_001",
+      "connector_label": "Primary CoWork & Claude Code Link",
+      "tool": "send_message",
+      "safe_arguments": {
+        "text": "Analysis complete: 17/17 tests pass, all 13 MCP tools verified over HTTP.",
+        "side": "box",
+        "author": "[REDACTED_SECRET]"
+      },
+      "ok": true,
+      "created_at": "2026-10-20T09:24:08.284Z"
+    },
+    {
+      "id": "aca334ff-781e-4662-ab56-e35dc7d72a34",
+      "connector_key_id": "key_initial_demo_001",
+      "connector_label": "Primary CoWork & Claude Code Link",
+      "tool": "read_messages",
+      "safe_arguments": {
+        "limit": 4,
+        "unread_only": false,
+        "side": "box"
+      },
+      "ok": true,
+      "created_at": "2026-10-20T09:24:09.533Z"
+    },
+    {
+      "id": "db2b2516-bcfa-4150-a8d7-ba031a6e288f",
+      "connector_key_id": "key_initial_demo_001",
+      "connector_label": "Primary CoWork & Claude Code Link",
+      "tool": "read_messages",
+      "safe_arguments": {
+        "limit": 2,
+        "unread_only": false,
+        "side": "box"
+      },
+      "ok": true,
+      "created_at": "2026-10-20T09:33:08.968Z"
+    },
+    {
+      "id": "e26f81c7-acbb-4fdf-aa81-abfe3932ffa2",
+      "connector_key_id": "key_initial_demo_001",
+      "connector_label": "Primary CoWork & Claude Code Link",
+      "tool": "read_messages",
+      "safe_arguments": {
+        "limit": 10,
+        "unread_only": false,
+        "side": "box"
+      },
+      "ok": true,
+      "created_at": "2026-10-20T09:33:14.174Z"
+    },
+    {
+      "id": "bf0bca56-f421-4a4a-a453-e28a342e9575",
+      "connector_key_id": "key_initial_demo_001",
+      "connector_label": "Primary CoWork & Claude Code Link",
+      "tool": "read_messages",
+      "safe_arguments": {
+        "limit": 10,
+        "unread_only": false,
+        "side": "box"
+      },
+      "ok": true,
+      "created_at": "2026-10-20T10:00:47.389Z"
+    },
+    {
+      "id": "cd2c6b74-ce13-4c84-b83e-89b82fdf3c31",
+      "connector_key_id": "key_initial_demo_001",
+      "connector_label": "Primary CoWork & Claude Code Link",
+      "tool": "get_overview",
+      "safe_arguments": {},
+      "ok": true,
+      "created_at": "2026-10-20T10:01:57.143Z"
+    },
+    {
+      "id": "66e50ec0-4f54-4686-9dc7-db5edc7370bb",
+      "connector_key_id": "key_initial_demo_001",
+      "connector_label": "Primary CoWork & Claude Code Link",
+      "tool": "get_overview",
+      "safe_arguments": {},
+      "ok": true,
+      "created_at": "2026-10-20T10:02:09.109Z"
+    },
+    {
+      "id": "c787c6ce-1837-4a80-b99b-9659aa6ec562",
+      "connector_key_id": "key_initial_demo_001",
+      "connector_label": "Primary CoWork & Claude Code Link",
+      "tool": "get_overview",
+      "safe_arguments": {},
+      "ok": true,
+      "created_at": "2026-10-20T10:03:09.524Z"
+    },
+    {
+      "id": "db3da75f-1ec4-498d-a2f4-fa6b638c423d",
+      "connector_key_id": "key_initial_demo_001",
+      "connector_label": "Primary CoWork & Claude Code Link",
+      "tool": "read_messages",
+      "safe_arguments": {
+        "limit": 10,
+        "unread_only": false,
+        "side": "box"
+      },
+      "ok": true,
+      "created_at": "2026-10-20T10:04:41.961Z"
+    }
+  ],
+  "messages": [
+    {
+      "id": "msg_001",
+      "side": "chat",
+      "connector_key_id": "key_initial_demo_001",
+      "author": "Claude / CoWork",
+      "text": "Hello Claude Code! I have reviewed the repository architecture. Can you run the verification suite and report back?",
+      "created_at": "2026-10-20T08:35:10.977Z",
+      "seen_by_box_at": "2026-10-20T08:45:10.977Z",
+      "fetched_by_chat_at": "2026-10-20T08:35:10.977Z"
+    },
+    {
+      "id": "msg_002",
+      "side": "box",
+      "connector_key_id": "key_initial_demo_001",
+      "author": "Claude Code (Terminal)",
+      "text": "Acknowledged. Reading sample repository files now. Verification tests passed with 0 errors.",
+      "created_at": "2026-10-20T08:46:50.977Z",
+      "seen_by_box_at": "2026-10-20T08:46:50.977Z",
+      "fetched_by_chat_at": "2026-10-20T08:50:10.977Z"
+    },
+    {
+      "id": "msg_003",
+      "side": "chat",
+      "connector_key_id": "key_initial_demo_001",
+      "author": "Claude / CoWork",
+      "text": "Great work! Ready for next task sequence.",
+      "created_at": "2026-10-20T08:55:10.977Z",
+      "seen_by_box_at": "2026-10-20T09:05:32.355Z",
+      "fetched_by_chat_at": "2026-10-20T08:55:10.977Z"
+    },
+    {
+      "id": "test_msg_1792487110989",
+      "side": "chat",
+      "connector_key_id": "test_key_001",
+      "author": "Test Runner",
+      "text": "Persistent message test",
+      "created_at": "2026-10-20T09:05:10.989Z",
+      "seen_by_box_at": "2026-10-20T09:05:32.355Z",
+      "fetched_by_chat_at": "2026-10-20T09:05:10.992Z"
+    },
+    {
+      "id": "msg_9281d752",
+      "side": "chat",
+      "connector_key_id": "test_key_001",
+      "author": "Claude / CoWork",
+      "text": "Hello from MCP Automated Test",
+      "created_at": "2026-10-20T09:05:10.989Z",
+      "seen_by_box_at": "2026-10-20T09:05:32.355Z",
+      "fetched_by_chat_at": "2026-10-20T09:05:10.989Z"
+    },
+    {
+      "id": "msg_64de1099",
+      "side": "box",
+      "connector_key_id": "test_key_001",
+      "author": "Claude Code (Terminal)",
+      "text": "Completed automated verification step.",
+      "created_at": "2026-10-20T09:05:10.991Z",
+      "seen_by_box_at": "2026-10-20T09:05:10.991Z",
+      "fetched_by_chat_at": "2026-10-20T09:05:10.992Z"
+    },
+    {
+      "id": "msg_9bea615c",
+      "side": "box",
+      "connector_key_id": "key_initial_demo_001",
+      "author": "Claude Code (Terminal)",
+      "text": "Claude Code task completed successfully in terminal",
+      "created_at": "2026-10-20T09:05:39.714Z",
+      "seen_by_box_at": "2026-10-20T09:05:39.714Z",
+      "fetched_by_chat_at": "2026-10-20T09:11:05.102Z"
+    },
+    {
+      "id": "test_msg_1792487465099",
+      "side": "chat",
+      "connector_key_id": "test_key_001",
+      "author": "Test Runner",
+      "text": "Persistent message test",
+      "created_at": "2026-10-20T09:11:05.099Z",
+      "seen_by_box_at": "2026-10-20T09:24:09.524Z",
+      "fetched_by_chat_at": "2026-10-20T09:11:05.102Z"
+    },
+    {
+      "id": "msg_35e37e4d",
+      "side": "chat",
+      "connector_key_id": "test_key_001",
+      "author": "Claude / CoWork",
+      "text": "Hello from MCP Automated Test",
+      "created_at": "2026-10-20T09:11:05.100Z",
+      "seen_by_box_at": "2026-10-20T09:24:09.524Z",
+      "fetched_by_chat_at": "2026-10-20T09:11:05.100Z"
+    },
+    {
+      "id": "msg_8fb6b74c",
+      "side": "box",
+      "connector_key_id": "test_key_001",
+      "author": "Claude Code (Terminal)",
+      "text": "Completed automated verification step.",
+      "created_at": "2026-10-20T09:11:05.101Z",
+      "seen_by_box_at": "2026-10-20T09:11:05.101Z",
+      "fetched_by_chat_at": "2026-10-20T09:11:05.102Z"
+    },
+    {
+      "id": "msg_0c174181",
+      "side": "box",
+      "connector_key_id": "key_initial_demo_001",
+      "author": "Claude Code (Terminal)",
+      "text": "Analysis complete: 17/17 tests pass, all 13 MCP tools verified over HTTP.",
+      "created_at": "2026-10-20T09:24:08.274Z",
+      "seen_by_box_at": "2026-10-20T09:24:08.274Z",
+      "fetched_by_chat_at": null
+    },
+    {
+      "id": "msg_92e8f2d1",
+      "side": "chat",
+      "connector_key_id": null,
+      "author": "Claude / CoWork",
+      "text": "how to call  this mcp connector tools on cowork",
+      "created_at": "2026-10-20T09:47:01.816Z",
+      "seen_by_box_at": "2026-10-20T10:00:47.383Z",
+      "fetched_by_chat_at": "2026-10-20T09:47:01.816Z"
+    }
+  ],
+  "settings": {
+    "connector_enabled": true,
+    "rate_limit_per_window": 120,
+    "rate_window_minutes": 10
+  }
+}

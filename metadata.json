@@ -1,0 +1,6 @@
+{
+  "name": "Claude Code & CoWork MCP Connector",
+  "description": "Standalone Model Context Protocol (MCP) HTTP connector and shared message board for Claude, CoWork, and Claude Code.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
